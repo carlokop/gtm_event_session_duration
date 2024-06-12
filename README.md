@@ -2,6 +2,7 @@
 GTM tag that fires events based on session duration rather than time on page
 
 Create a GTM script tag and add the js in there.
+Wrap the JS between <Script></script> tags
 Set this tag to be triggered at page views and add a scroll trigger firing everty 15% or so
 
 This script works by placing a 1st party cookie with the current timestamp that will expire after 30 minutes
