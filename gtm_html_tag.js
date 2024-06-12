@@ -1,4 +1,3 @@
-<script>
 /*
   set the threshold for the session_duration_conv event here (in seconds)
   if a session passes this threshold, a session_duration_conv event will
@@ -45,4 +44,3 @@ function gtm_getCookie(name) {
 	  }
   }
 })();
-</script>
