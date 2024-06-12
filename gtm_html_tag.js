@@ -3,7 +3,7 @@
   if a session passes this threshold, a session_duration_conv event will
   be pushed to the datalayer
 */
-var sessionDurationThreshold = 120;
+var sessionDurationThreshold = 120;  //change only this number (seconds)
 
 function gtm_getCookie(name) {
   var cookies = decodeURIComponent(document.cookie);
